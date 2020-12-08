@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    height: 50px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+a:hover{
+    color: coral;
+}
+
+header{
+    background-color: red;
+    height: 600px;
+    background-image: url(images/mulhermaravilha.png);
+    background-size: cover;
+    display: block;
+    color: white;
+}
+
+button{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 14pt;
+}
+
+section{
+    background-color: white;
+    height: 3000px;
+}
+
+footer{
+    height: 300px;
+    background-color: orangered;
+    color: white;
+}
+
+.botaoTamanho{
+    width: 150px;
+    height: 75px;
+    background-color: orangered;
+    color: white;
+    font-size: 16;
+}
+
+#botaoBranco{
+    background-color: white;
+    color: orangered;
+    width: 200px;
+}
+
+#botaoGrande{
+    background-color: white;
+    color: dimgrey;
+    width: 700px;
+    border: solid 1px dimgray;
+}
+
+#botaoPreto{
+    background-color: black;
+    color: white;
+}
+
+img{
+    height: 250px;
+}
+
+.tamanhoSimbolo{
+    height: 75px;
+}
