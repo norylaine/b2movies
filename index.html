@@ -1,83 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filmassos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <img src="images/logo.png" alt="logomarca B2mamy">
-        <a href="">Filmes</a>
-        <a href="">Destaque do Mês</a>
-        <a href="">Contato</a>
+        <a href="#filmes">Filmes</a>
+        <a href="#destaque">Destaque do Mês</a>
+        <a href="#contato">Contato</a>
     </nav>
 
     <header>
-        <h1>b2-Movies</h1>
-        <h2>os filmes das mulheres empoderadas</h2>
-        <button id="botaoBranco"class="botaoTamanho">confira agora</button>
+       <div>
+           <h1>b2-Movies</h1>
+           <h2>os filmes das mulheres empoderadas</h2>
+           <button class="botaoConfira">confira agora</button>
+        </div>
     </header>
 
     <section>
-        <h2>filmes</h2>
-        <button id="botaoGrande" class="botaoTamanho">digite um filme aqui</button>
-        <button id="botaoPreto" class="botaoTamanho">pesquisar</button>
-        
-            <div>
-                <img src="images/filme_1.png" alt="estrelas além do tempo">
-                <button class="botaoTamanho">veja o trailer</button>
+        <h2 id="filmes">filmes</h2>
+        <button id="caixaPesquisa">digite um filme aqui</button>
+        <button id="botaoPesquisa">pesquisar</button>
+        <p></p>
+
+        <div class="flexCartazes">
+            <div class="divCartaz">
+                <img src="images/filme_1.png" alt="cartaz filme estrelas além do tempo">
+                <p>Estrelas além do tempo</p>
+                <button class="botaoTrailler">veja o trailer</button>
             </div> 
-            <div>
-                <img src="images/filme_2.jpg" alt="frida">
-                <button class="botaoTamanho">veja o trailer</button>
+            <div class="divCartaz">
+                <img src="images/filme_2.jpg" alt="cartaz filme frida">
+                <p>Frida</p>
+                <button class="botaoTrailler">veja o trailer</button>
             </div>
-            <div>
-                <img src="images/filme_3.jpg" alt="diana">
-                <button class="botaoTamanho">veja o trailer</button>
+            <div class="divCartaz">
+                <img src="images/filme_3.jpg" alt="cartaz filme diana">
+                <p>Diana</p>
+                <button class="botaoTrailler">veja o trailer</button>
             </div>
-            <div>
-                <img src="images/filme_4.jpg" alt="rainha de katwe">
-                <button class="botaoTamanho">veja o trailer</button>
+            <div class="divCartaz">
+                <img src="images/filme_4.jpg" alt="cartaz filme rainha de katwe">
+                <p>Rainha de Katwe</p>
+                <button class="botaoTrailler">veja o trailer</button>
             </div>
-      
-            <div>
-                <img src="images/filme_5.jpg" alt="kill bill">
-                <button class="botaoTamanho">veja o trailer</button>
-            </div>
-            <div><img src="images/filme_6.jpg" alt="que horas ela volta">
-                <button class="botaoTamanho">veja o trailer</button>
-            </div>
-            <div>
-                <img src="images/filme_7.jpg" alt="mad max">
-                <button class="botaoTamanho">veja o trailer</button>
-            </div>
-            <div>
-                <img src="images/filme_8.png" alt="jackie bronw">
-                <button class="botaoTamanho">veja o trailer</button>
-            </div>
+        </div>
 
-            <h2>Destaque do mês</h1>
-            <img src="images/jackie.jpg" alt="jackie">
-            <h1>Jackie Brown</h1>
-            <p>Comissária de bordo trafica dinheiro a mando de um vendedor de armas. Quando dois policiais oferecem um acordo para que ela entregue o bandido, a mulhere resolve enganar todos os envolvidos, com um olho na liberdade e outro numa mala cheia de dinheiro.</p>
-            <button class="botaoTamanho">Veja o trailer</button>
+        <p></p>
 
-        <p>Por trás de uma mulher bem resolvida existe ela mesma</p>
+        <div class="flexCartazes">
+            <div class="divCartaz">
+                <img src="images/filme_5.jpg" alt="cartaz filme kill bill">
+                <p>Kill Bill</p>
+                <button class="botaoTrailler">veja o trailer</button>
+            </div>
+            <div class="divCartaz">
+                <img src="images/filme_6.jpg" alt="cartaz filme que horas ela volta">
+                <p>Que horas ela volta</p>
+                <button class="botaoTrailler">veja o trailer</button>
+            </div>
+            <div class="divCartaz">
+                <img src="images/filme_7.jpg" alt="cartaz filme mad max">
+                <p>Mad Max</p>
+                <button class="botaoTrailler">veja o trailer</button>
+            </div>
+            <div class="divCartaz">
+                <img src="images/filme_8.png" alt="cartaz filme jackie brown">
+                <p>Jackie Brown</p>
+                <button class="botaoTrailler">veja o trailer</button>
+            </div>
+        </div>
 
+        <div>
+            <p id="fraseBemResolvida"> Por trás</p>
+            <p id="fraseBemResolvida"> de uma mulher</p>
+            <p id="fraseBemResolvida">bem resolvida</p>
+            <p id="fraseBemResolvida">existe ela mesma.</p>
+        </div>
+
+        <div id="divDestaque">
+            <div>
+                <h2 id="destaque">Destaque do mês</h1>
+                <img id="imgJackie" src="images/jackie.jpg" alt="foto jackie">
+            </div>
+            <div>
+                <h1 id="nomeJackie">Jackie Brown</h1>
+                <p id="descricaoJackie">Comissária de bordo trafica dinheiro a mando de um vendedor de armas. Quando dois policiais oferecem um acordo para que ela entregue o bandido, a mulhere resolve enganar todos os envolvidos, com um olho na liberdade e outro numa mala cheia de dinheiro.</p>
+                <button id="botaoJackie" class="botaoTrailler">Veja o trailer</button>
+            </div>
+            
+        </div>
     </section>
-
+    
     <footer>
-        <h2>Contato</h2>
-        <img class="tamanhoSimbolo"src="images/email.png" alt="simbolo email">
-        <img class="tamanhoSimbolo"src="images/facebook.png" alt="simbolo facebook">
-        <img class="tamanhoSimbolo"src="images/youtube.png" alt="simbolo youtube">
-        
-        <h2>Quer sugerir novos filmes?</h2>
-        <p>manda e-mail para gente :)</p>
-        
+        <h2 id="contato">Contato</h2>
+        <div id="divFooter">
+            <div id="divSimbolos">
+                <img class="simboloContatos"src="images/email.png" alt="simbolo email">
+                <img class="simboloContatos"src="images/facebook.png" alt="simbolo facebook">
+                <img id="simboloYoutube" class="simboloContatos"src="images/youtube.png" alt="simbolo youtube">
+            </div>
+            <div id="sugestoes">
+                <h2>Quer sugerir novos filmes?</h2>
+                <p>manda e-mail para gente :)</p>
+            </div>
+        </div>
     </footer>
 
 </body>
+
 </html>

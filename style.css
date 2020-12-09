@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
 }
@@ -8,6 +10,8 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 nav img{
     height: 50px;
@@ -25,24 +29,121 @@ a:hover{
 
 header{
     background-color: red;
-    height: 600px;
+    height: 800px;
     background-image: url(images/mulhermaravilha.png);
     background-size: cover;
-    display: block;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div{
+    width: 70%;
+}
+
+header h1{
+    font-size: 80pt;
+}
+
+header h2{
+    font-size: 30pt;
 }
 
 button{
-    background-color: white;
-    color: black;
-    height: 50px;
-    width: 150px;
-    font-size: 14pt;
+    border-radius: 50px;
+    border: none;
 }
 
-section{
+.botaoConfira{
     background-color: white;
-    height: 3000px;
+    color: coral;
+    font-size: 18pt;
+    height: 70px;
+    width: 250px;
+}
+
+#filmes{
+    font-size: 30pt;
+}
+
+#caixaPesquisa{
+    width: 500px;
+    height: 40px;
+    font-size: 12pt;
+    color: dimgrey;
+    background-color: white;
+    border: solid 1px dimgray;
+}
+
+#botaoPesquisa{
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+    height: 40px;
+    width: 200px;
+}
+
+.botaoTrailler{
+    background-color:orangered;
+    color: white;
+    font-size: 13pt;
+    width: 175px;
+    height: 50px;
+}
+
+.flexCartazes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divCartaz{
+    display: flex;
+    flex-direction: column;
+    font-size: 15pt;
+    align-items: center;
+}
+
+img{
+    height: 250px;
+}
+
+#fraseBemResolvida{
+    background-color: black;
+    color: white;
+    font-size: 40pt;
+    width: max-content;
+}
+
+#divDestaque{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#destaque{
+    font-size: 30pt;
+}
+
+#imgJackie{
+    border-radius: 100%;
+    height: 400px;
+}
+
+#nomeJackie{
+    color: orangered;
+    font-size: 30pt;
+}
+
+#descricaoJackie{
+    font-size: 20pt;
+}
+
+#botaoJackie{
+    border: solid 1px white;
+    background-color: black;
 }
 
 footer{
@@ -51,36 +152,30 @@ footer{
     color: white;
 }
 
-.botaoTamanho{
-    width: 150px;
-    height: 75px;
-    background-color: orangered;
-    color: white;
-    font-size: 16;
+.simboloContatos{
+    height: 60px;
 }
 
-#botaoBranco{
-    background-color: white;
-    color: orangered;
-    width: 200px;
+#simboloYoutube{
+    height: 100px;
 }
 
-#botaoGrande{
-    background-color: white;
-    color: dimgrey;
-    width: 700px;
-    border: solid 1px dimgray;
+#divFooter{
+    display: flex;
+    justify-content: space-around;
 }
 
-#botaoPreto{
-    background-color: black;
-    color: white;
+#contato{
+    font-size: 30pt;
 }
 
-img{
-    height: 250px;
+#divSimbolos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.tamanhoSimbolo{
-    height: 75px;
+#sugestoes{
+    font-size: 20pt;
 }
+
