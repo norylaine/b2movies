@@ -1,7 +1,10 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
@@ -20,7 +23,6 @@ nav img{
 nav a{
     color: black;
     text-decoration: none;
-    font-family: Helvetica;
 }
 
 a:hover{
@@ -53,6 +55,7 @@ header h2{
 button{
     border-radius: 50px;
     border: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .botaoConfira{
