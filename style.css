@@ -9,7 +9,7 @@ body{
 
 nav{
     background-color: white;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,6 +24,7 @@ nav a{
     color: black;
     text-decoration: none;
     margin-left: 50px;
+    font-size: 14pt;
 }
 
 a:hover{
@@ -62,6 +63,7 @@ button{
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .botaoConfira{
     background-color: white;
     color: coral;
@@ -73,6 +75,12 @@ button{
 section{
     margin-left: 200px;
     margin-right: 200px;
+    padding-bottom: 100px;
+}
+
+#divSecao{
+    display: flex;
+    justify-content: space-between;
 }
 
 #filmes{
@@ -80,20 +88,22 @@ section{
 }
 
 #caixaPesquisa{
-    width: 500px;
+    width: 750px;
     height: 40px;
     font-size: 15pt;
     color: dimgrey;
     background-color: white;
     border: solid 1px dimgray;
+    border-radius: 50px;
+    text-align: center;
 }
 
-#botaoPesquisa{
+.botaoPesquisa{
     background-color: black;
     color: white;
     font-size: 15pt;
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 180px;
     font-weight: bold;
 }
 
@@ -141,21 +151,28 @@ img{
     font-weight: bold;
 }
 
-#secaoDestaque{
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 200px;
-    padding-right: 200px;
+aside{
+    margin: 0;
 }
 
-#destaque{
-    font-size: 30pt;
+.divDestaque{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    display: flex;
+    height: 800px;
+    align-items: center;
 }
+
+#divFotoJackie{
+    width: 50%;
+    text-align: center;
+    font-size: 18pt;
+}
+
+#divTextoJackie{
+    width: 50%;
+  }
+
 
 #imgJackie{
     border-radius: 100%;
@@ -169,13 +186,27 @@ img{
 }
 
 #descricaoJackie{
-    font-size: 20pt;
+    font-size: 18pt;
+    width: 65%;
 }
 
 #botaoJackie{
     border: solid 1px white;
-    background-color: black;
+    background-color: transparent;
 }
+
+#botaoJackie:hover{
+    background-color: white;
+    color: black;
+}
+
+button:hover{
+    background-color: transparent;
+    color: black;
+    border: solid 2pt black;
+    font-weight: bold;
+    cursor: pointer;
+    }
 
 footer{
     height: 300px;
@@ -183,35 +214,44 @@ footer{
     color: white;
     padding-left: 200px;
     padding-right: 200px;
+    margin: 0;
 }
 
 .simboloContatos{
     height: 60px;
-    margin: 15px;
+    display: flex;
+    justify-self: center;
+  
 }
 
 #simboloYoutube{
     height: 100px;
-    margin: 5px;
 }
 
 #divFooter{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #contato{
     font-size: 30pt;
+    background-color: purple;
+    width: 50%;
+    margin: 0;
 }
 
 #divSimbolos{
+    background-color: darkblue;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    width: 65%;
 }
 
-#sugestoes{
+#divsugestoes{
     font-size: 20pt;
+    background-color:green;
+    width: 65%;
 }
 
 #sugestoes h2{
