@@ -27,6 +27,11 @@ nav a{
     font-size: 14pt;
 }
 
+.menu{
+  background-color: fuchsia;
+  font-size: 30pt;
+}
+
 a:hover{
     color: coral;
 }
