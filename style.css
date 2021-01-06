@@ -3,16 +3,16 @@ html{
 }
 
 body{
-    margin: 0;
     font-family: 'Montserrat';
+    margin: 0;
 }
 
 nav{
-    background-color: white;
-    height: 70px;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    background-color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
     position: fixed;
     width: 100%;
 }
@@ -22,14 +22,9 @@ nav img{
 
 nav a{
     color: black;
-    text-decoration: none;
-    margin-left: 50px;
     font-size: 14pt;
-}
-
-.menu{
-  background-color: fuchsia;
-  font-size: 30pt;
+    margin-left: 50px;
+    text-decoration: none;
 }
 
 a:hover{
@@ -37,14 +32,14 @@ a:hover{
 }
 
 header{
+    align-items: center;
     background-color: red;
-    height: 800px;
     background-image: url(images/mulhermaravilha.png);
     background-size: cover;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    height: 800px;
 }
 
 header div{
@@ -58,21 +53,21 @@ header h1{
 
 header h2{
     font-size: 30pt;
-    margin-top: 0;
     font-weight: normal;
+    margin-top: 0;
 }
 
 button{
-    border-radius: 50px;
     border: none;
+    border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 .botaoConfira{
     background-color: white;
     color: coral;
     font-size: 18pt;
+    font-weight: bold;
     height: 70px;
     width: 250px;
 }
@@ -93,54 +88,54 @@ section{
 }
 
 #caixaPesquisa{
-    width: 750px;
-    height: 40px;
-    font-size: 15pt;
-    color: dimgrey;
     background-color: white;
     border: solid 1px dimgray;
     border-radius: 50px;
+    color: dimgrey;
+    font-size: 15pt;
+    height: 40px;
     text-align: center;
+    width: 750px;
 }
 
 .botaoPesquisa{
     background-color: black;
     color: white;
     font-size: 15pt;
+    font-weight: bold;
     height: 50px;
     width: 180px;
-    font-weight: bold;
 }
 
 .botaoTrailler{
     background-color:orangered;
     color: white;
     font-size: 13pt;
-    width: 175px;
-    height: 50px;
     font-weight: bold;
+    height: 50px;
+    width: 175px;
 }
 
 .flexCartazes{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .divCartaz{
+    align-items: center;
     display: flex;
     flex-direction: column;
     font-size: 15pt;
-    align-items: center;
-    width: 180px;
     text-align: center;
+    width: 180px;
 }
 
 .divCartaz p{
-    width: 180px;
-    height: 50px;
     font-weight: bold;
+    height: 50px; 
+    width: 180px;
 }
 
 img{
@@ -150,10 +145,10 @@ img{
 #fraseBemResolvida{
     background-color: black;
     color: white;
-    font-size: 40pt;
-    width: max-content;
     margin: 10px;
+    font-size: 40pt;
     font-weight: bold;
+    width: max-content;
 }
 
 aside{
@@ -161,23 +156,22 @@ aside{
 }
 
 .divDestaque{
+    align-items: center;
     background-color: rgb(36, 36, 36);
     color: white;
     display: flex;
     height: 800px;
-    align-items: center;
 }
 
 #divFotoJackie{
-    width: 50%;
-    text-align: center;
     font-size: 18pt;
+    text-align: center;
+    width: 50%;
 }
 
 #divTextoJackie{
     width: 50%;
   }
-
 
 #imgJackie{
     border-radius: 100%;
@@ -207,63 +201,61 @@ aside{
 
 button:hover{
     background-color: transparent;
-    color: black;
     border: solid 2pt black;
-    font-weight: bold;
+    color: black;
     cursor: pointer;
+    font-weight: bold;
     }
 
 footer{
-    height: 300px;
     background-color: orangered;
     color: white;
+    height: 300px;
+    margin: 0;
     padding-left: 200px;
     padding-right: 200px;
-    margin: 0;
 }
 
 .simboloContatos{
     height: 60px;
-    display: flex;
-    justify-self: center;
-  
+    width: 60px;
 }
 
-#simboloYoutube{
-    height: 100px;
+#youTube{
+    height: 90px;
+    padding-left: 0;
+    width: 90px;  
 }
 
 #divFooter{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 #contato{
     font-size: 30pt;
-    background-color: purple;
-    width: 50%;
     margin: 0;
+    padding-top: 50px;
+    width: 50%;
 }
 
 #divSimbolos{
-    background-color: darkblue;
+    align-items: center;
     display: flex;
-    justify-content: flex-start;
-    width: 65%;
+    justify-content: space-between;
+    width: 25%;
 }
 
 #divsugestoes{
     font-size: 20pt;
-    background-color:green;
-    width: 65%;
+    width: 50%;
 }
 
-#sugestoes h2{
-    margin: 0;
+#footerH2{
+    font-size: 20pt;
 }
 
-#sugestoes p{
-    margin-top: 0;
+#footerP{
+    font-size: 15pt;
 }
-
